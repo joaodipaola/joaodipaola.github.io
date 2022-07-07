@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="UTF-8">
+        <title>COTAÇÕES ELETROBRAS</title>
+        <script>
+            let url = new URL('https://bvmf.bmfbovespa.com.br/cotacoes2000/FormConsultaCotacoes.asp?strListaCodigos=ELET3%7CELET6');
+            let xhr = new XMLHttpRequest();
+
+            xhr.open('GET', url);
+            //xhr.responseType = 'json';
+            xhr.send();
+            console.log(xhr.responseText);    
+        </script>  
+    </head>
+    <body>
+        <hr>COTAÇÕES DAS AÇÕES ELETROBRAS</hr>
+    </body>
+</html>
