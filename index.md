@@ -1,3 +1,3 @@
 ## APP PORTFOLIO
 
-### [Suppliers](./suppliers)
+### [Suppliers](https://joaodipaola.github.io/suppliers)
