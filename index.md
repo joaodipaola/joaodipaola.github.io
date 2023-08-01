@@ -2,6 +2,6 @@
 
 ## With no DB:
 ### - [Suppliers](https://joaodipaola.github.io/suppliers)
-### - Books
+### - My Books
 
 ## JSon DB:
