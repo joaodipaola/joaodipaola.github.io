@@ -1,7 +1,8 @@
 # APP PORTFOLIO
 
-## With no DB:
+## No Persistence:
 ### - [Suppliers](https://joaodipaola.github.io/suppliers)
+### - Employees Overview
 ### - My Books
 
 ## JSon File Persistence:
