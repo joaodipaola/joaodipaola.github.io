@@ -1,0 +1,42 @@
+<mvc:View xmlns:cards="sap.f.cards" xmlns:calendar="sap.ui.unified.calendar"
+	controllerName="sapui5.demo.mvcapp.controller.Detail"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:f="sap.ui.layout.form"
+	xmlns="sap.m"
+	busyIndicatorDelay="0">
+	<Page id="page" navButtonPress="onNavPress" showNavButton="true" title="{i18n>detailTitle}">
+		<content>
+			<Panel
+				id="productPanel"
+				width="auto"
+				class="sapUiNoContentPadding">
+				<headerToolbar>
+					<Toolbar>
+						<Title text="{i18n>ID}: {prod_id}" level="H2"/>
+						<ToolbarSpacer />
+					</Toolbar>
+				</headerToolbar>
+				<content>
+					<f:SimpleForm
+						editable="false"
+						layout="ResponsiveGridLayout"
+						labelSpanL="3" labelSpanM="3" emptySpanL="4" emptySpanM="4"
+						columnsL="1" columnsM="1">
+						<f:content>
+							<Label text="Product Name"/>
+							<Text text="{prod_name}"/>
+							<Label text="Category"/>
+							<Text text="{prod_cat}"/>
+							<Label text="Description"/>
+							<Text text="{prod_desc}"/>
+							<Label text="Price"/>
+							<Text text="{prod_price}"/>
+							<Label text="Unit"/>
+							<Text text="{prod_curr}"/>
+						</f:content>
+					</f:SimpleForm>
+				</content>
+			</Panel>
+		</content>
+	</Page>
+</mvc:View>
