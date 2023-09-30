@@ -1,8 +1,8 @@
 # APP PORTFOLIO
 
 ## No Persistence:
-### - [Suppliers](https://joaodipaola.github.io/suppliers)
 ### - [Employees Overview](https://joaodipaola.github.io/teste)
+### - [Suppliers](https://joaodipaola.github.io/suppliers)
 ### - My Books
 
 ## JSon File Persistence:
